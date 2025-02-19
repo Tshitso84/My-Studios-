@@ -148,6 +148,7 @@ main{
 .studio{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 10px;
     background-color: #fff;
     padding: 10px;
@@ -179,4 +180,9 @@ main{
     font-weight: 600;
     color: orangered ;
     padding-top: 5px;
+}
+
+.book-btn{
+    background-color: cadetblue;
+    color: #fff;
 }
