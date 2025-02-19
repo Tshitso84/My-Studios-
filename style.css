@@ -5,7 +5,7 @@
     text-wrap: balance;
 }
 body {
-    min-height: 100vh;
+    min-height: 100dvh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    width: 420px;
+    min-width: 420px;
     color: black;
     padding: 1rem 10px;
     background-color: #fff;
@@ -39,8 +39,8 @@ header{
 }
 
 section {
-    height: 1020px;
-    width: 480px;
+    min-height: 100%;
+    min-width: 100%;
     border: 1px solid black;
     background: #f7f7f7;
 }
